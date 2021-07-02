@@ -1,0 +1,5 @@
+<mat-card>
+    <mat-progress-bar mode="indeterminate" [class.invisible]="!paymentService.isLoading"></mat-progress-bar>
+    <h4>NassWallet Payment Gateway API Test</h4>
+    <button mat-raised-button color="primary" (click)="makePayment()">Payment</button>
+</mat-card>
